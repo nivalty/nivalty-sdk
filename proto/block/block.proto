@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package nivalty_sdk.block;
+
+option go_package = "github.com/nivalty/nivalty-sdk/x/block";
+
+message Block{
+    int64 index = 1;
+    string hash = 2;
+    string prevHash = 3;
+    int64 timestamp = 4;
+    bytes data = 5;
+    string validator = 6;
+}
