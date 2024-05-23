@@ -4,7 +4,7 @@ import (
 	"crypto/ed25519"
 	"errors"
 
-	"github.com/nivalty/nivalty-sdk/types/msgs"
+	"github.com/nivalty/nivalty-sdk/pkg/msgs"
 )
 
 func NewPrivateKeyFromSeed(seed []byte) (*PrivateKey, error) {

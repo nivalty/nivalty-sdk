@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/nivalty/nivalty-sdk/types/chain"
+	"github.com/nivalty/nivalty-sdk/pkg/chain"
 )
 
 const chainAddressFormat = "/%v/%v/%v"

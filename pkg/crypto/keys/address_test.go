@@ -3,7 +3,7 @@ package keys
 import (
 	"testing"
 
-	"github.com/nivalty/nivalty-sdk/types/chain"
+	"github.com/nivalty/nivalty-sdk/pkg/chain"
 )
 
 func TestAddress(t *testing.T) {
